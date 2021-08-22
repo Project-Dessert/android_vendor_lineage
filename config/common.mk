@@ -223,6 +223,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     pm.dexopt.ab-ota=verify
 endif
 
+# Speed profile services and wifi-service to reduce RAM and storage
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay/no-rro
 
 PRODUCT_PACKAGE_OVERLAYS += \
