@@ -1,38 +1,37 @@
-PRODUCT_VERSION_MAJOR = 19
-PRODUCT_VERSION_MINOR = 1
+PRODUCT_VERSION_MAJOR = 12L
+PRODUCT_VERSION_CODENAME = CUPCAKE-WIP
 
-ifeq ($(LINEAGE_VERSION_APPEND_TIME_OF_DAY),true)
-    LINEAGE_BUILD_DATE := $(shell date -u +%Y%m%d_%H%M%S)
+
+# Vanilla
+ifeq ($(RELEASE_BUILDTYPE), OFFICIAL)
+    RELEASE_TYPE = -OFFICIAL
+    ifeq ($(GAPPS),)
+        PRODUCT_PROPERTY_OVERRIDES += lineage.updater.uri=https://github.com/Project-Sweets/ota_config/raw/snowcone/{device}.json
+    endif
 else
-    LINEAGE_BUILD_DATE := $(shell date -u +%Y%m%d)
+    RELEASE_TYPE = UNOFFICIAL
 endif
+PRODUCT_SWEET_EXTRAVERSION = VANILLA-
 
-# Set LINEAGE_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
-
-ifndef LINEAGE_BUILDTYPE
-    ifdef RELEASE_TYPE
-        # Starting with "LINEAGE_" is optional
-        RELEASE_TYPE := $(shell echo $(RELEASE_TYPE) | sed -e 's|^LINEAGE_||g')
-        LINEAGE_BUILDTYPE := $(RELEASE_TYPE)
+# Chocolate
+ifeq ($(GAPPS),true)
+    $(GAPPS will be included in the build)
+    PRODUCT_SWEET_EXTRAVERSION = CHOCOLATE-
+    ifeq ($(RELEASE_TYPE),OFFICIAL)
+        PRODUCT_PROPERTY_OVERRIDES += lineage.updater.uri=https://github.com/Project-Sweets/ota_config/raw/snowcone_g/{device}.json
+    endif
+    ifeq ($(GAPPS_ARM32),)
+        $(warning GAPPS_ARM32 is not set, it defaulting to 64 bit)
+        $(warning Dont try to set it, only needed for 32 bit devices)
+        $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+    endif
+    ifeq ($(GAPPS_ARM32), false)
+        $(warning including 32 bit gapps)
+        $(call inherit-product, vendor/gapps/arm/arm-vendor.mk)
     endif
 endif
 
-# Filter out random types, so it'll reset to UNOFFICIAL
-ifeq ($(filter RELEASE NIGHTLY SNAPSHOT EXPERIMENTAL,$(LINEAGE_BUILDTYPE)),)
-    LINEAGE_BUILDTYPE := UNOFFICIAL
-    LINEAGE_EXTRAVERSION :=
-endif
-
-ifeq ($(LINEAGE_BUILDTYPE), UNOFFICIAL)
-    ifneq ($(TARGET_UNOFFICIAL_BUILD_ID),)
-        LINEAGE_EXTRAVERSION := -$(TARGET_UNOFFICIAL_BUILD_ID)
-    endif
-endif
-
-LINEAGE_VERSION_SUFFIX := $(LINEAGE_BUILD_DATE)-$(LINEAGE_BUILDTYPE)$(LINEAGE_EXTRAVERSION)-$(LINEAGE_BUILD)
-
-# Internal version
-LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(LINEAGE_VERSION_SUFFIX)
 
 # Display version
-LINEAGE_DISPLAY_VERSION := $(PRODUCT_VERSION_MAJOR)-$(LINEAGE_VERSION_SUFFIX)
+LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR)-$(PRODUCT_VERSION_CODENAME)-$(PRODUCT_SWEET_EXTRAVERSION)$(shell date -u +%Y%m%d)-$(LINEAGE_BUILD)$(RELEASE_TYPE)
+LINEAGE_DISPLAY_VERSION := $(PRODUCT_VERSION_MAJOR)-$(PRODUCT_VERSION_CODENAME)-$(PRODUCT_SWEET_EXTRAVERSION)$(shell date -u +%Y%m%d)-$(LINEAGE_BUILD)$(RELEASE_TYPE)
