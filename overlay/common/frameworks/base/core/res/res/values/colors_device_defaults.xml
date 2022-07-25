@@ -36,4 +36,5 @@
     <color name="background_floating_device_default_dark">@color/background_device_default_dark</color>
     <color name="background_floating_device_default_light">@color/background_device_default_light</color>
 
+    <color name="text_color_on_accent_device_default">@color/system_neutral1_0</color>
 </resources>
