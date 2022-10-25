@@ -31,6 +31,7 @@ SOONG_CONFIG_lineageGlobalVars += \
     aapt_version_code \
     additional_gralloc_10_usage_bits \
     bootloader_message_offset \
+    disable_postrender_cleanup \
     gralloc_handle_has_reserved_size \
     target_health_charging_control_charging_path \
     target_health_charging_control_charging_enabled \
@@ -63,6 +64,7 @@ SOONG_CONFIG_lineageQcomVars += \
 endif
 
 # Soong bool variables
+SOONG_CONFIG_lineageGlobalVars_disable_postrender_cleanup := $(TARGET_DISABLE_POSTRENDER_CLEANUP)
 SOONG_CONFIG_lineageGlobalVars_gralloc_handle_has_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE)
 SOONG_CONFIG_lineageGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPLAY_ARRAY)
 SOONG_CONFIG_lineageNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
