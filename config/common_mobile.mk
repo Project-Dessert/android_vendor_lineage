@@ -10,7 +10,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     Backgrounds \
     Eleven \
+    Etar \
     ExactCalculator \
+    Jelly \
     Profiles \
     Seedvault
 
