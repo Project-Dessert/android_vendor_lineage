@@ -9,7 +9,7 @@ ifeq ($(RELEASE_BUILDTYPE), OFFICIAL)
         PRODUCT_PROPERTY_OVERRIDES += lineage.updater.uri=https://github.com/Project-Sweets/ota_config/raw/snowcone/{device}.json
     endif
 else
-    RELEASE_TYPE = UNOFFICIAL
+    RELEASE_TYPE = -UNOFFICIAL
 endif
 PRODUCT_SWEET_EXTRAVERSION = VANILLA-
 
