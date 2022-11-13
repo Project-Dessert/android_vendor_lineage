@@ -21,11 +21,19 @@ PRODUCT_PACKAGES += \
     AudioFX
 endif
 
+ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
-    Launcher3
+    TrebuchetQuickStepGo
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Launcher3
+    TrebuchetQuickStepGo
+else
+PRODUCT_PACKAGES += \
+    TrebuchetQuickStep
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    TrebuchetQuickStep
+endif
 
 # Charger
 PRODUCT_PACKAGES += \

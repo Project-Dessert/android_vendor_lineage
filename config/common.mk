@@ -1,4 +1,4 @@
-	# Allow vendor/extra to override any property by setting it first
+# Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 
 PRODUCT_BRAND ?= Dessert
@@ -201,8 +201,7 @@ endif
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    Launcher3
+    SystemUI
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay/no-rro
 PRODUCT_PACKAGE_OVERLAYS += \
@@ -210,7 +209,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/lineage/overlay/no-rro
 
 PRODUCT_PACKAGES += \
-    NetworkStackOverlay
+    NetworkStackOverlay \
+    TrebuchetOverlay
 
 # Translations
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/crowdin/overlay
