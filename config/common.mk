@@ -122,9 +122,6 @@ PRODUCT_PACKAGES += \
     LineageThemesStub \
     ThemePicker
 
-# Inherit from themes config
-$(call inherit-product, vendor/lineage/config/themes.mk)
-
 # Config
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
