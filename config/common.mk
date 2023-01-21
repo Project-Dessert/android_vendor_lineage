@@ -238,10 +238,13 @@ PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-im
 PRODUCT_PRODUCT_PROPERTIES += \
         persist.sys.disable_rescue=true
 
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay/no-rro
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    vendor/lineage/overlay/no-rro\
+    vendor/lineage/overlay/branding
 
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/lineage/overlay/common \
+    vendor/lineage/overlay/branding \
     vendor/lineage/overlay/no-rro
 
 PRODUCT_PACKAGES += \

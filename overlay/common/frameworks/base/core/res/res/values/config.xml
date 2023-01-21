@@ -2,6 +2,7 @@
 <!--
      Copyright (C) 2013 The CyanogenMod Project
                (C) 2017-2019 The LineageOS Project
+     Copyright (C) 2022 droid-ng
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -40,6 +41,13 @@
         <item>com.android.location.fused</item>
         <!-- The MicroG Unified location provider -->
         <item>org.microg.nlp</item>
+    </string-array>
+
+    <!-- List containing the allowed install sources for accessibility service. -->
+    <string-array name="config_accessibility_allowed_install_source" translatable="false">
+        <item>com.android.vending</item>
+        <item>org.fdroid.fdroid.privileged</item>
+        <item>com.aurora.services</item>
     </string-array>
 
     <string-array name="config_locationExtraPackageNames" translatable="false">
@@ -89,7 +97,7 @@
     <bool name="config_useRoundIcon">true</bool>
 
     <!-- Whether or not we should show the option to show battery percentage -->
-    <bool name="config_battery_percentage_setting_available">false</bool>
+    <bool name="config_battery_percentage_setting_available">true</bool>
 
     <!-- List of packages that can use the Conversation space for their category messages
     notifications until they target R -->
@@ -180,4 +188,5 @@
 
     <!-- Whether safe headphone volume is enabled or not (country specific). -->
     <bool name="config_safe_media_volume_enabled">false</bool>
+
 </resources>
