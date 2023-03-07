@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2015 The CyanogenMod Project
+	              2017-2022 The LineageOS Project
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lineageparts_title">Ustawienia Project Dessert</string>
+    <string name="anonymous_statistics_title">Statystyki Project Dessert</string>
+    <string name="anonymous_statistics_summary">Pomóż ulepszyć Project Dessert, pozwalając na wysyłanie anonimowych statystyk</string>
+    <string name="anonymous_statistics_warning">Wyrażenie zgody na udział w Statystykach Project Dessert zezwoli na przesył anonimowych danych do
+        developerów Project Dessert, aby śledzić ilość unikalnych instalacji na urządzeniach . Informacje zawierają unikalny identyfikator,
+       który nie narusza twojej prywatności lub prywatnych danych. Dane są wysyłane przy każdym uruchomieniu.\n\nAby zobaczyć przykład przesyłanych danych naciśnij Podgląd Danych.</string>
+    <string name="trust_feature_security_patches_explain">Aktualizacje zabezpieczeń są wydawane co miesiąc przez Google w kooperacji z dostawcami SoC w celu łatania luk w systemie, które mogą zostać wykorzystane przez złośliwe oprogramowanie w celu obejścia zabezpieczeń oraz wyrządzenia trwałych szkód w twoim urządzeniu. Łatki udostępniane przez Google są aplikowane w każdym miesiącu na wszystkich wspieranych urządzeniach, ale poprawki dla kodu własnościowego mogą być aplikowane tylko przez producenta twojego telefonu. By utrzymać twój telefon bezpiecznym, zawsze używaj najnowsze wersji Project Dessert i (jeżeli dotyczy) twój obraz vendor jest zaktualizowany do najnowszej wersji zalecanej przez Project Dessert.</string>
+</resources>

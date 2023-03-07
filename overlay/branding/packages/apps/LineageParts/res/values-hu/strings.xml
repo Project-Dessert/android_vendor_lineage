@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2015 The CyanogenMod Project
+	              2017-2022 The LineageOS Project
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lineageparts_title">Project Dessert - Beállítások</string>
+    <string name="anonymous_statistics_title">Project Dessert statisztika</string>
+    <string name="anonymous_statistics_summary">Segítsen a Project Dessert jobbá tételében, kapcsolja be a névtelen statisztikai adatok gyűjtését</string>
+    <string name="anonymous_statistics_warning">A Project Dessert statisztika engedélyezése nem terjed ki személyes adatokra, csak egy egyedi azonosítóval azonosítjuk az eszközöket. A beküldött adatok beleértve az egyedi azonosítót, nem veszélyeztetik az adatvédelmi vagy személyes adatokat. A statisztika minden rendszerindításkor elküldésre kerül.\n\nAz elküldött adatok menüpont alatt tekintheti meg a statisztikai adatokat.</string>
+    <string name="trust_feature_security_patches_explain">Az Androidos biztonsági hibajavító csomagok havonta jelennek meg a Google és a SoC gyártók jóvoltából, a rendszerben fellépő olyan hibák kezelésére, amelyeket a rosszindulatú alkalmazások kihasználhatnak a biztonsági korlátozások megkerülésére, és ideiglenesen vagy tartósan károsíthatják a készüléket.\nMíg a platformjavítások havonta frissülnek globálisan, a gyártói javításokat csak időnként frissítik az OEM-eken keresztül.\nA készülékbiztonság megőrzéséhez győződjön meg róla, hogy az Ön Project Dessert kiadása mindig naprakész-e, és (ha elérhető) biztosítja, hogy a gyártói képet a Project Dessert által ajánlott legfrissebbre frissítse.</string>
+</resources>

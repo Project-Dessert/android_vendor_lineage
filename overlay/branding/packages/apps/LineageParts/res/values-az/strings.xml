@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2015 The CyanogenMod Project
+	              2017-2022 The LineageOS Project
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lineageparts_title">Project Dessert Tənzimləmələri</string>
+    <string name="anonymous_statistics_title">Project Dessert statistikaları</string>
+    <string name="anonymous_statistics_summary">Anonim statistika göndərməni tərcih edərək, Project Dessert-u təkmilləşdirməyimizə kömək edin</string>
+    <string name="anonymous_statistics_warning">Project Dessert Statistikalarına daxil olmaq, cihazlar arasındakı unikal quraşdırmaların
+        izlənilməsi üçün Project Dessert-un tərtibatçılarına şəxsi olmayan verilənlərin göndərilməsinə icazə verəcək. Göndərilən məlumatlar, gizliliyiniz və ya şəxsi verilənləriniz
+        üçün təhlükəli olmayan unikal bir identifikator ehtiva edir. Verilənlər hər önyükləmə vaxtı göndərilir.\n\nGöndərilən verilənlərə nümunə olaraq Verilənlərə Önbaxış-a toxunun.</string>
+    <string name="trust_feature_security_patches_explain">Güvənlik yamaqları Google tərəfindən, SoC satıcıları ilə əməkdaşlıq edilərək, güvənlik məhdudiyyətlərini ötürmək və cihazınıza zərər vurmaq üçün zərərli tətbiqlər tərəfindən istismar edilə biləcək çatışmazlıqları aradan qaldırmaq üçün aylıq olaraq yayımlanır. Google tərəfindən hazırlanan yamaqlar hər ay bütün dəstəklənən cihazlara tətbiq olunur, ancaq xüsusi kodlu yamaqlar yalnız cihazınızın istehsalçısı tərəfindən tətbiq oluna bilər. Cihazınızı güvənli şəkildə saxlamaq üçün Project Dessert quruluşunuzun həmişə güncəl olduğuna və (mümkündürsə) satıcı faylınızın Project Dessert tərəfindən məsləhət görülən ən son versiyaya güncəlləndiyinə əmin olun.</string>
+</resources>

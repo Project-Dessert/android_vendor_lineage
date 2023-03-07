@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2015 The CyanogenMod Project
+	              2017-2022 The LineageOS Project
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lineageparts_title">Project Dessert の設定</string>
+    <string name="anonymous_statistics_title">Project Dessert の統計</string>
+    <string name="anonymous_statistics_summary">匿名の統計のレポートに同意してProject Dessertの改善に協力する</string>
+    <string name="anonymous_statistics_warning">Project Dessertの統計に同意すると、端末間のユニークインストール回数を調べるためにProject Dessertの開発者への非個人情報の送信を許可します。送信される情報にはユニークIDが含まれますが、プライバシーや個人データが危険にさらされることはありません。データはブート時に送信されます。\n\n送信されるデータの見本は[データをプレビュー]をタップして確認することができます。</string>
+</resources>

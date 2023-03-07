@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2015 The CyanogenMod Project
+	              2017-2022 The LineageOS Project
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lineageparts_title">Paramètres de Project Dessert</string>
+    <string name="anonymous_statistics_title">Statistiques Project Dessert</string>
+    <string name="anonymous_statistics_summary">Contribuer à l\'amélioration de Project Dessert en envoyant des rapports de statistiques anonymes</string>
+    <string name="anonymous_statistics_warning">Autoriser l\'envoi de statistiques Project Dessert permet aux développeurs de Project Dessert de collecter des données anonymes afin de comptabiliser le nombre d\'installations par type d\'appareil. Les informations transmises contiennent un identifiant unique et ne compromettent en aucune manière votre vie privée ou vos données personnelles. Les informations sont envoyées à chaque démarrage du système.\n\nPour visualiser un exemple de ces données, sélectionnez « Aperçu des données ».</string>
+    <string name="trust_feature_security_patches_explain">Les correctifs de sécurité sont publiés chaque mois par Google, en coopération avec les fournisseurs de SoC. Ils permettent de corriger des failles que des applications malveillantes sont susceptibles d\'exploiter pour contourner les restrictions de sécurité et endommager votre appareil de façon définitive. Les correctifs fournis par Google sont appliqués chaque mois à tous les appareils compatibles, mais ceux concernant le code propriétaire ne peuvent l\'être que par le fabricant de votre appareil. Pour garantir la sécurité de votre appareil, veillez à toujours utiliser la dernière version de Project Dessert et, le cas échéant, mettez à jour votre fichier vendor.img afin qu\'il corresponde à la dernière version recommandée par Project Dessert.</string>
+</resources>

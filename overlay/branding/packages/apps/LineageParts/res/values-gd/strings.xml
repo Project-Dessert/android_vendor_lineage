@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2015 The CyanogenMod Project
+	              2017-2022 The LineageOS Project
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lineageparts_title">Roghainnean Project Dessert</string>
+    <string name="anonymous_statistics_title">Stadastaireachd air Project Dessert</string>
+    <string name="anonymous_statistics_summary">Cuidich leinn a thoirt piseach air Project Dessert is tu a’ cur aithrisean stadastaireachd gun urra an comas</string>
+    <string name="anonymous_statistics_warning">Ma cheadaicheas tu gun cruinnich Project Dessert stadastaireachd, thèid dàta neo-phearsanta a chur a-null gu
+        luchd-leasachaidh Project Dessert airson stàlaidhean fa leth a thracadh thar uidheaman. Gabhaidh am fiosrachadh a thèid a chur a-null a-steach aithnichear àraidh
+        nach bris a-steach air do phrìobhaideachd no dàta phearsanta. Thèid an dàta a chur a-null gach turas a thèid an t-uidheam a bhùtadh.\n\nAirson ball-eisimpleir dhen dàta a thèid a chur a-null, thòir gnogag air “Ro-sheall an dàta”.</string>
+    <string name="trust_feature_security_patches_explain">Sgaoilidh Google ’s reiceadairean SoC brèidean tèarainteachd gach mìos a dhèiligeas ri easbhaidhean a b’ urrainn do dh’aplacaidean droch-rùnach a chleachdadh airson cuingeachaidhean tèarainteachd a sheachnadh is cron maireannach a dhèanamh air an uidheam agad. Thèid na brèidean a chuireas Google gu làimh a chur an sàs gach mìos air gach uidheam ris a bheil taic ach cha ghabh brèidean air còd fo shealbh a chur an sàs ach le dèanadair an uidheim agad. Airson an t-uidheam agad a chumail sàbhailte, dèan cinnteach gu bheil an togail agad dhe Project Dessert cho ùr ’s a ghabhas an-còmhnaidh agus (ma tha seo iomchaidh) dèan cinnteach gun deach ìomhaigh an reiceadair agad ùrachadh dhan fhear as ùire a mholas Project Dessert dhut.</string>
+</resources>

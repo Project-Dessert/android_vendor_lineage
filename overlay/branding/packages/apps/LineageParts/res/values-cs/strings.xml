@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2015 The CyanogenMod Project
+	              2017-2022 The LineageOS Project
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lineageparts_title">Nastavení Project Dessert</string>
+    <string name="anonymous_statistics_title">Project Dessert statistika</string>
+    <string name="anonymous_statistics_summary">Pomozte nám zdokonalit Project Dessert zasíláním anonymní statistiky</string>
+    <string name="anonymous_statistics_warning">Povolením zasílání statistik systému Project Dessert umožní odesílat neosobní data vývojářům k zjišťování stavu instalace na různých zařízeních. Odesílaná data obsahují unikátní identifikátor zařízení, který nezpůsobí žádnou kompromitaci soukromí nebo osobních dat. Data jsou odesílána při každém restartu zařízení.\n\nDotykem na „Náhled dat“ se můžete podívat na příklad odesílaných dat.</string>
+    <string name="trust_feature_security_patches_explain">Bezpečnostní záplaty jsou vydávány měsíčně společností Google ve spolupráci s dodavateli čipů, aby odstranili nedostatky, kterých by mohly zneužít škodlivé aplikace tím, že obejdou bezpečnostní omezení a způsobí trvalé poškození vašemu zařízení. Záplaty, které společnost Google poskytuje, jsou aplikovány každý měsíc na všech podporovaných zařízeních, ale záplaty mohou být do kódu aplikovány pouze výrobcem zařízení. Chcete-li zařízení udržet v bezpečí, ujistěte se, že je vaše sestavení Project Dessert vždy aktuální, a (pokud možno) ujistěte se, že je obraz systému dodavatele aktualizován na poslední verzi doporučenou Project Dessert.</string>
+</resources>

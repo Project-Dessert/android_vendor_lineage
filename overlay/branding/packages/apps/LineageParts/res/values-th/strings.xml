@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2015 The CyanogenMod Project
+	              2017-2022 The LineageOS Project
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lineageparts_title">การตั้งค่า Project Dessert</string>
+    <string name="anonymous_statistics_title">สถิติ Project Dessert</string>
+    <string name="anonymous_statistics_summary">ช่วยทำให้ Project Dessert ดีขึ้นโดยการส่งรายงานสถิติแบบไม่ระบุตัวตน</string>
+    <string name="anonymous_statistics_warning">การส่งสถิติแบบไม่ระบุตัวตนไปยัง Project Dessert จะอนุญาตให้ส่งข้อมูลที่ไม่ใช่ข้อมูลส่วนตัวไปยังนักพัฒนาของ Project Dessert เพื่อติดตามการติดตั้งบนอุปกรณ์ทั้งหมด ข้อมูลที่ถูกส่งรวมไปถึงตัวระบุลักษณะเฉพาะ\n\nซึ่งไม่ส่งผลกระทบต่อความเป็นส่วนตัวและข้อมูลส่วนบุคคลของคุณ โดยจะส่งข้อมูลทุกครั้งที่เริ่มระบบ\n\n แตะ \"แสดงตัวอย่างข้อมูล\" เพื่อดูตัวอย่างข้อมูลที่ถูกส่ง</string>
+    <string name="trust_feature_security_patches_explain">Google ออกแพตช์รักษาความปลอดภัยเป็นประจำทุกเดือนโดยร่วมมือกับผู้ขาย SoC เพื่อแก้ไขข้อบกพร่องซึ่งอาจถูกใช้โดยแอปที่เป็นอันตรายเพื่อข้ามข้อจำกัดในด้านความปลอดภัยและทำให้อุปกรณ์ของคุณเสียหายอย่างถาวร Google มีการติดตั้งแพตช์แก้ไขทุกเดือนในอุปกรณ์ที่รองรับทั้งหมด แต่ผู้ผลิตอุปกรณ์ของคุณสามารถแก้ไขข้อบกพร่องสำหรับโค้ดที่เป็นกรรมสิทธิ์ได้เท่านั้น เพื่อให้อุปกรณ์ของคุณปลอดภัยตรวจสอบให้แน่ใจว่ารุ่น Project Dessert ที่คุณใช้งานอยู่เป็นรุ่นล่าสุดอยู่เสมอและ (ถ้ามี) ให้แน่ใจว่าไฟล์ภาพผู้ขายของคุณได้รับการอัปเดตเป็นรุ่นล่าสุดที่ถูกแนะนำโดย Project Dessert</string>
+</resources>
