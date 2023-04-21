@@ -85,7 +85,8 @@ PRODUCT_PACKAGES += \
     IconShapeTaperedRectOverlay \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay \
-    LineageNavigationBarNoHint
+    LineageNavigationBarNoHint \
+    NavigationBarMode2ButtonOverlay
 
 # FaceUnlock
 ifneq ($(TARGET_FACE_UNLOCK_OPTOUT), true)
