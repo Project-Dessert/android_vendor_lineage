@@ -1,5 +1,5 @@
 PRODUCT_VERSION_MAJOR = Donut
-PRODUCT_VERSION_MINOR = Feb
+PRODUCT_VERSION_MINOR = Jun
 
 ifeq ($(LINEAGE_VERSION_APPEND_TIME_OF_DAY),true)
     LINEAGE_BUILD_DATE := $(shell date -u +%Y%m%d_%H%M%S)
@@ -11,13 +11,13 @@ endif
 ifeq ($(GAPPS),)
     PRODUCT_PROPERTY_OVERRIDES += lineage.updater.uri=https://github.com/Project-Sweets/ota_config/raw/snowcone/{device}.json
     WITH_GMS := true
-    SWEET_EXTRAVERSION = VANILLA-
+    SWEET_EXTRAVERSION = VANILLA
 endif
 
 # Chocolate
 ifeq ($(GAPPS),true)
     $(GAPPS will be included in the build)
-    SWEET_EXTRAVERSION = CHOCOLATE-
+    SWEET_EXTRAVERSION = CHOCOLATE
     PRODUCT_PROPERTY_OVERRIDES += lineage.updater.uri=https://github.com/Project-Sweets/ota_config/raw/snowcone_g/{device}.json
     ifeq ($(GAPPS_ARM32),)
         $(warning GAPPS_ARM32 is not set, it defaulting to 64 bit)
@@ -35,7 +35,7 @@ endif
 LINEAGE_VERSION_SUFFIX := $(LINEAGE_BUILD_DATE)-$(SWEET_EXTRAVERSION)-$(LINEAGE_BUILD)
 
 # Internal version
-LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(LINEAGE_VERSION_SUFFIX)
+LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR)-$(PRODUCT_VERSION_MINOR)-$(LINEAGE_VERSION_SUFFIX)
 
 # Display version
 LINEAGE_DISPLAY_VERSION := $(PRODUCT_VERSION_MAJOR)-$(LINEAGE_VERSION_SUFFIX)
